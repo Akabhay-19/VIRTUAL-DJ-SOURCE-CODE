@@ -1,0 +1,39 @@
+.virtual-dj {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 2em;
+}
+.decks {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+.deck {
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 1em;
+  width: 300px;
+  background: #fafafa;
+}
+.url-input {
+  width: 90%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  justify-content: center;
+}
+.crossfader {
+  margin: 2em 0;
+}
+.crossfader input[type="range"] {
+  width: 300px;
+}
+footer {
+  margin-top: 2em;
+  color: #666;
+  font-size: 0.9em;
+}
